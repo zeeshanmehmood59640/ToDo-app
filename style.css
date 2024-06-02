@@ -17,6 +17,8 @@ img{
 nav{
     background-color: azure;
     border-bottom: 1px solid #010133;
+    margin-left: 0;
+    margin-right: 0;
 }
 .task{
     background-color: azure;
@@ -40,4 +42,10 @@ a{
 a:hover{
     text-decoration: underline!important;
 
+}
+.footer{
+
+    background-color: #011a2c;
+    color: white;
+    width: 100%;
 }

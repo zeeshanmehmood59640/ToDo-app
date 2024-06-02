@@ -7,6 +7,7 @@ const body=document.querySelector("body")
 const nav=document.querySelector("nav")
 const h1=document.querySelector("h1")
 const addbtn=document.getElementById("addBtn")
+const footer=document.querySelector(".footer")
 
 dayImage.addEventListener('click',()=>{
     dayImage.classList.add("d-none");
@@ -14,6 +15,7 @@ dayImage.addEventListener('click',()=>{
     body.style.backgroundColor="#011a2c"
     nav.style.backgroundColor="#7b7bd1"
     h1.style.color="white"
+    footer.style.backgroundColor="#2b2b67"
 })
 nightImage.addEventListener('click',()=>{
     dayImage.classList.remove("d-none");
@@ -21,6 +23,7 @@ nightImage.addEventListener('click',()=>{
     body.style.backgroundColor="#fff"
     nav.style.backgroundColor="azure"
     h1.style.color="#011a2c"
+    footer.style.backgroundColor="#011a2c"
 })
 
 nightImage.addEventListener('click',()=>{
