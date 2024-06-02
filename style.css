@@ -17,8 +17,8 @@ img{
 nav{
     background-color: azure;
     border-bottom: 1px solid #010133;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 0!important;
+    margin-right: 0!important;
 }
 .task{
     background-color: azure;
